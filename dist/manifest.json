@@ -1,0 +1,35 @@
+{
+  "name": "Link Preview for kintone",
+  "version": "0.0.1",
+  "description": "kintoneでlinkのPreviewを表示する",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["https://*/k/*"],
+      "css": ["css/index.css"],
+      "js": ["js/index.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "web_accessible_resources": ["images/defaultImageUrl.svg"],
+  "manifest_version": 2
+}

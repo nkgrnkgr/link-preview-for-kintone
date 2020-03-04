@@ -1,0 +1,69 @@
+.lpfk-card {
+  -webkit-filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.8));
+  filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.8));
+  transition: 0.3s;
+  width: 30%;
+  margin: 20px;
+}
+
+.lpfk-card:hover {
+  -webkit-filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.8));
+  filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.8));
+  transform: translateY(-4px);
+}
+
+.lpfk-align {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.lpfk-img_large {
+  display: block;
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+}
+
+.lpfk-img {
+  display: block;
+  background-color: #fff;
+  min-height: 100px;
+  max-height: 100px;
+  object-position: 0% 0%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.lpfk-desc_large {
+  background-color: #eee;
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.lpfk-desc {
+  background-color: #eee;
+  border-radius: 0px 10px 10px 0px;
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.lpfk-title {
+  margin: 0px;
+  color: #000;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lpfk-sub {
+  font-size: 0.9em;
+  margin: 0px;
+  color: #040404;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
