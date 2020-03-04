@@ -1,7 +1,7 @@
 <h1 align="center" >link-preview-for-kintone</h1>
 
 <p align="center">
-<img width="200px" src="https://github.dev.cybozu.co.jp/raw/taiki-nishi/link-preview-for-kintone/master/dist/images/iconReadme.png" />
+<img width="200px" src="https://raw.githubusercontent.com/nkgrnkgr/link-preview-for-kintone/master/dist/images/iconReadme.png" />
 </p>
 
 ### kintone のリンクに TwitterCard 風のプレビューをつけることができます
