@@ -1,8 +1,8 @@
 {
   "name": "Link Preview for kintone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Show webpage summary card in kintone.",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "permissions": ["storage"],
   "options_page": "options.html",
   "content_scripts": [
     {
